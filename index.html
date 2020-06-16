@@ -64,25 +64,39 @@
 		padding-bottom:10px;color:#ffffff;padding-left:10px;padding-right:10px;padding-top:10px;padding-bottom:10px;
 		font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
+#watermark-background{
+    position:absolute;
+  align-items: center;
+    z-index:0;
+    display:block;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#watermark
+{
+    color:lightgrey;
+    font-size:75px;
+    transform:rotate(330deg);
+    -webkit-transform:rotate(330deg);
+}
+
+#redd
+{
+    color:red;    
+}
+
 </style>
-	</style>
-	<h4 class='opacbox'>// Hello World! Site is under revamp, please stay tuned.</h4>
+	<div id="watermark-background">
+		<p id="watermark">Stay The <span id="redd">F***</span> Home</p>
+	</div>
+	<!--<h4 class='opacbox'>// Hello World! Site is under revamp, please stay tuned.</h4>-->
 			<div class="top">
 				<h1>Dhruval Variya</h1>
 					<p class="intro"></p>
-					<p id="typing" data-descriptions="Full Stack Software Engineer, Java Prodigy, Javascript Ninja, Database Architect"></p>
-			</div>
-			<div class="msg">
-				Data Structures are crucial ingredients for cooking software.
-			</div>
-			<div class="msg">
-				Did you understand recursion? No, read the question again.
-			</div>
-			<div class="msg">
-				I am eco friendly, I support Trees while coding.
-			</div>
-			<div class="msg">
-				Finest example of Palindrome : Developer builds Code
+					<p id="typing" data-descriptions="Full Stack Software Engineer, Java Prodigy, Javascript Ninja, Android Crackerjack, Database Architect"></p>
 			</div>
 			<div class="footer">
 				There are three kinds of people: those who can count and those who can’t.
