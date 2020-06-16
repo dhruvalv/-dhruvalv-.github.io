@@ -65,8 +65,9 @@
 		font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 #watermark-background{
+width: 10000%;
     position:absolute;
-  align-items: center;
+    align-items: center;
     z-index:0;
     display:block;
 	top: 50%;
@@ -77,10 +78,16 @@
 
 #watermark
 {
+	text-align: center;
     color:lightgrey;
-    font-size:75px;
+    font-size:90px;
     transform:rotate(330deg);
     -webkit-transform:rotate(330deg);
+	 background-color:rgba(0, 0, 0, 0.15);
+		padding-left : 5px;
+		padding-right : 5px;
+		padding-bottom:10px;color:#ffffff;padding-left:10px;padding-right:10px;padding-top:10px;padding-bottom:10px;
+		font-family:Courier;
 }
 
 #redd
@@ -90,7 +97,7 @@
 
 </style>
 	<div id="watermark-background">
-		<p id="watermark">Stay The <span id="redd">F***</span> Home</p>
+		<div id="watermark">Stay The <span id="redd">F***</span> Home</div>
 	</div>
 	<!--<h4 class='opacbox'>// Hello World! Site is under revamp, please stay tuned.</h4>-->
 			<div class="top">
@@ -99,7 +106,7 @@
 					<p id="typing" data-descriptions="Full Stack Software Engineer, Java Prodigy, Javascript Ninja, Android Crackerjack, Database Architect"></p>
 			</div>
 			<div class="footer">
-				There are three kinds of people: those who can count and those who can’t.
-			</div>
+				There are three kinds of people: those who can count and those who can’t.<br> 
+			</div>			
 	</body>
 </html>
